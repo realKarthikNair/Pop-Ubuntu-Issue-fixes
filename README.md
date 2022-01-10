@@ -41,7 +41,6 @@ Fix:
 Alternative suggestion:
 
     Switch to Firefox! It has that feature out of box in wayland... 
-    I can't cuz my word depends on MS Teams that doesnt work on Firefox and I'm not a fan of keeping multiple browsers or worse, the stupid Linux native version of MS Teams (as of Dec 2021)
 
 
 **5. Hardware Accelerated video decode on Chrome/chromium based browsers**
