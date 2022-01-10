@@ -1,6 +1,6 @@
 # Pop-Ubuntu-Bug-fixes
 
-Documenting how i fixed some stupid bugs in Ubuntu and/or Pop with quotation to the sources (if I remember/bookmarked) that helped me.
+Documenting how i got through some stupid issues with Ubuntu and/or Pop with quotation to the sources (if I remember/bookmarked) that helped me.
 
 **1. No "New Document" option in menu (when you right-click) of Gnome Files aka nautilus** <br>
 
