@@ -45,8 +45,8 @@ Alternative suggestion:
 
 **5. Hardware Accelerated video decode on Chrome/chromium based browsers**
     
-`This Worked for me!
-https://www.linuxuprising.com/2021/01/how-to-enable-hardware-accelerated.html`
+`This Worked for me!`
+https://www.linuxuprising.com/2021/01/how-to-enable-hardware-accelerated.html
 
 **6. Unable to extract xz files in nautilus/dolphin (literally no option)**
 
