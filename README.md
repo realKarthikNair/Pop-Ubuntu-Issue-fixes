@@ -50,7 +50,15 @@ https://www.linuxuprising.com/2021/01/how-to-enable-hardware-accelerated.html
 
 **6. Unable to extract xz files in nautilus/dolphin (literally no option)**
 
+Fix:
+
     sudo apt-get install ark
     #close and reopen nautilus/dolphin
 
 source : [here](https://askubuntu.com/a/881271/1227056)
+
+**7. No python2 in system and `sudo apt install python` doesn't work**
+
+Fix:
+
+    sudo apt install python2
