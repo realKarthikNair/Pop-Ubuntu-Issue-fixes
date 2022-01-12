@@ -1,4 +1,4 @@
-# Pop-Ubuntu-Bug-fixes
+# Pop-Ubuntu-Issue-fixes
 
 Documenting how to get through some stupid issues with Ubuntu and/or Pop with quotation to the sources (if available and necessary)
 
