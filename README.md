@@ -10,7 +10,7 @@ Fix:
     cd ~/Templates
     touch new
     
-source : [here](https://askubuntu.com/a/209669/1227056)
+credits : [here](https://askubuntu.com/a/209669/1227056)
 
 **2. Bluetooth not turning On**
 
@@ -71,4 +71,4 @@ After reviewing carefully, you can pass `--allow-remove-essential` as an option 
 
 For example, `sudo apt-get purge gcc-11-base:i386* --allow-remove-essential`
 
-source: [here](https://www.reddit.com/r/debian/comments/r7cjow/comment/hmykar4/?utm_source=share&utm_medium=web2x&context=3)
+credits: [here](https://www.reddit.com/r/debian/comments/r7cjow/comment/hmykar4/?utm_source=share&utm_medium=web2x&context=3)
