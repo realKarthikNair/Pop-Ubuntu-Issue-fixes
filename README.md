@@ -62,3 +62,13 @@ source : [here](https://askubuntu.com/a/881271/1227056)
 Fix:
 
     sudo apt install python2
+    
+**8. Getting `E: Removing essential system-critical packages is not permitted. This might break the system` error while trying to remove a package**
+
+Fix:
+
+After reviewing carefully, you can pass `--allow-remove-essential` as an option to `apt-get` to bypass this warning
+
+For example, `sudo apt-get purge gcc-11-base:i386* --allow-remove-essential`
+
+source: [here](https://www.reddit.com/r/debian/comments/r7cjow/comment/hmykar4/?utm_source=share&utm_medium=web2x&context=3)
