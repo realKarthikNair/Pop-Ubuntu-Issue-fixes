@@ -73,7 +73,7 @@ For example, `sudo apt-get purge gcc-11-base:i386* --allow-remove-essential`
 
 credits: [here](https://www.reddit.com/r/debian/comments/r7cjow/comment/hmykar4/?utm_source=share&utm_medium=web2x&context=3)
 
-**8. OpenCL not working and `clinfo` returns ZERO
+**8. OpenCL not working and `clinfo` returns ZERO**
 
 Fix
 
