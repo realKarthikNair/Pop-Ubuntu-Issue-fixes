@@ -27,7 +27,7 @@ Fix:
 Fix:
 
     #reboot is necessary
-    apt install libspa-0.2-bluetooth && apt purge pulseaudio-module-bluetooth
+    sudo apt install libspa-0.2-bluetooth && sudo apt purge pulseaudio-module-bluetooth
     reboot
 
 
