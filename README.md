@@ -80,3 +80,8 @@ Fix
     sudo apt install mesa-opencl-icd
 credits: [here](https://itectec.com/ubuntu/ubuntu-how-to-get-opencl-to-work-on-an-amd-gpu-with-ubuntu-16-04/#:~:text=When%20clinfo%20shows%20%22Number%20of,icd%22%20for%20a%20possible%20solution.)
     
+**9. No fingerprint unlock option in settings**
+
+Fix
+
+    sudo apt install fprintd libpam-fprintd
