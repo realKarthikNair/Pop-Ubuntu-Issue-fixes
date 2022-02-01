@@ -85,3 +85,10 @@ credits: [here](https://itectec.com/ubuntu/ubuntu-how-to-get-opencl-to-work-on-a
 Fix
 
     sudo apt install fprintd libpam-fprintd
+    
+**10. External links are opened as blank tabs in new browser window in Chrome**
+
+Fix
+
+    rm $HOME/.local/share/applications/google-chrome.desktop
+
