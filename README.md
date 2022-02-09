@@ -91,4 +91,22 @@ Fix
 Fix
 
     rm $HOME/.local/share/applications/google-chrome.desktop
+credits: [here](https://askubuntu.com/a/689769/1227056)
 
+**11. Fix OBS Studio virtual webcam not working**
+
+Fix
+
+Step 1:
+
+Make Sure you have v4l2loopback installed. If unsure, run 
+
+    sudo apt install v4l2loopback*
+    reboot
+    
+Step 2:
+
+Open OBS Studio, and run this twice (for some reason running it once doesn't solve the issue atleast for me)
+
+    sudo rmmod v4l2loopback
+    sudo modprobe v4l2loopback exclusive_caps=1
