@@ -1,6 +1,6 @@
 # Pop-Ubuntu-Issue-fixes
 
-Documenting how I got through some stupid issues with Ubuntu and/or Pop with quotation to the sources (if available and necessary)
+Documenting how I got through some issues with Ubuntu and/or Pop with quotation to the sources (if available and necessary)
 
 **1. No "New Document" option in menu (when you right-click) of Gnome Files aka nautilus** <br>
 
@@ -31,7 +31,7 @@ Fix:
     reboot
 
 
-**4.Touchpad gestures (ZOOMING) not working on browsers **
+**4.Touchpad gestures (ZOOMING) not working on browsers**
 
 
 > For Chrome/Chromium/based
