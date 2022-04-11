@@ -1,6 +1,6 @@
 # Pop-Ubuntu-Issue-fixes
 
-Documenting how to get through some stupid issues with Ubuntu and/or Pop with quotation to the sources (if available and necessary)
+Documenting how I got through some stupid issues with Ubuntu and/or Pop with quotation to the sources (if available and necessary)
 
 **1. No "New Document" option in menu (when you right-click) of Gnome Files aka nautilus** <br>
 
@@ -110,3 +110,17 @@ Open OBS Studio, and run this twice (for some reason running it once doesn't sol
 
     sudo rmmod v4l2loopback
     sudo modprobe v4l2loopback exclusive_caps=1
+
+**12. Fix pipewire screen-sharing on Ubuntu/Pop!_OS 22.04**
+
+Fix
+
+    sudo apt install xdg-desktop-portal-gnome gnome-remote-desktop
+
+    systemctl --user enable pipewire-media-session
+    systemctl --user start pipewire-media-session
+    systemctl --user restart xdg-desktop-portal-gnome
+
+    reboot
+    
+credits: [here](https://askubuntu.com/a/1398720/1227056)
