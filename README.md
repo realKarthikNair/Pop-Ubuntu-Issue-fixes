@@ -31,18 +31,31 @@ Fix:
     reboot
 
 
-**4. Chrome touchpad page zooming features (only on wayland) like on Windows without using stuff like fusuma (fusuma anyway was only doing the Ctrl + or - page dpi zoom, which was different**
+**4.Touchpad gestures (ZOOMING) not working on browsers **
 
-Fix:
+
+> For Chrome/Chromium/based
+
+Fix 1:
+
+On chrome URL Bar, type ```chrome://flags``` 
+
+![image](https://user-images.githubusercontent.com/78267371/162694799-33a26cd9-3cf5-4726-b963-3e8c4d06cb99.png)
+
+Set it as shown (to Wayland) and restart chrome
+
+
+Fix 2 (Fix 1 would work mostly) :
 
     #run chrome this way, ONLY WORKS ON WAYLAND
     google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
     
-Alternative suggestion:
+> For firefox
 
-    Switch to Firefox! It has that feature out of box in wayland... 
+Run firefox like this 
 
-
+```MOZ_ENABLE_WAYLAND=1 firefox```
+   
 **5. Hardware Accelerated video decode on Chrome/chromium based browsers**
     
 `This Worked for me!`
@@ -136,3 +149,4 @@ Fix
     reboot
     
 credits: [here](https://askubuntu.com/a/1398720/1227056)
+
