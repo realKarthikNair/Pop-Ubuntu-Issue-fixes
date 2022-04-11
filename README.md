@@ -110,8 +110,20 @@ Open OBS Studio, and run this twice (for some reason running it once doesn't sol
 
     sudo rmmod v4l2loopback
     sudo modprobe v4l2loopback exclusive_caps=1
+    
+**12. Enable screen-sharing from Chrome on Wayland**
 
-**12. Fix pipewire screen-sharing on Ubuntu/Pop!_OS 22.04**
+> Please refer 13th issue and soln too incase this alone doesnt work
+
+Fix
+
+On chrome URL Bar, type ```chrome://flags``` 
+
+![image](https://user-images.githubusercontent.com/78267371/162693891-f0248d2b-1d25-4079-a0ce-b0e82156fbbd.png)
+
+Enable this flag and restart Chrome.
+
+**13. Fix pipewire screen-sharing on Ubuntu/Pop!_OS 22.04**
 
 Fix
 
