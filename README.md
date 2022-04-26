@@ -150,3 +150,8 @@ Fix
     
 credits: [here](https://askubuntu.com/a/1398720/1227056)
 
+**14. OBS Studio saving blank video files of screen recording on wayland even when pipewire screensharing is working in OBS preview**
+
+Fix
+
+    Remove the apt version and get the flatpak version from Pop Shop
