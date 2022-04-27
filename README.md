@@ -8,7 +8,10 @@ Fix:
 
     #Fire up the terminal
     cd ~/Templates
-    touch new
+    touch TextFile.txt
+    touch WordFile.txt
+    touch OpenOfficeText.odt
+    touch ExcelFile.xlsx
     
 credits : [here](https://askubuntu.com/a/209669/1227056)
 
