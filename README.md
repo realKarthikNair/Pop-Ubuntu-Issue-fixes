@@ -9,7 +9,7 @@ Fix:
     #Fire up the terminal
     cd ~/Templates
     touch TextFile.txt
-    touch WordFile.txt
+    touch WordFile.docx
     touch OpenOfficeText.odt
     touch ExcelFile.xlsx
     
