@@ -15,7 +15,7 @@ Fix:
     
 credits : [here](https://askubuntu.com/a/209669/1227056)
 
-**2. Bluetooth not turning On**
+~**2. Bluetooth not turning On**~ => No issues since updating to 22.04
 
 Fix:
 
@@ -58,6 +58,8 @@ Fix 2 (Fix 1 would work mostly) :
 Run firefox like this 
 
 ```MOZ_ENABLE_WAYLAND=1 firefox```
+
+> For some reason, editing the Exec variable in firefox's desktop file doesnt do magic. So use the terminal to launch.
    
 **5. Hardware Accelerated video decode on Chrome/chromium based browsers**
     
