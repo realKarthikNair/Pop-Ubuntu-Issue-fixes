@@ -158,3 +158,23 @@ credits: [here](https://askubuntu.com/a/1398720/1227056)
 Fix
 
     Remove the apt version and get the flatpak version from Pop Shop
+
+**15. Unable to disable dark theme for MySQL workbench**
+
+> THIS IS MORE OF A MYSQL WORKBENCH ISSUE THAN AN UBUNTU/POP!_OS ISSUE
+
+Fix
+
+Run it with "env GTK_THEME=Adwaita" prepended; ie `env GTK_THEME=Adwaita mysql-workbench %f`    
+Change the file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change
+
+    [Desktop Entry]
+    Name=MySQL Workbench
+    Comment=MySQL Database Design, Administration and Development Tool
+    Exec="env GTK_THEME=Adwaita mysql-workbench %f"
+    Terminal=false
+    Type=Application
+    Icon=mysql-workbench
+    MimeType=application/vnd.mysql-workbench-model;application/sql;
+    Categories=GTK;Database;Development;
+    StartupWMClass=mysql-workbench-bin
