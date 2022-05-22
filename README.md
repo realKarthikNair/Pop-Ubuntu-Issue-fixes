@@ -169,8 +169,6 @@ THIS IS MORE OF A MYSQL WORKBENCH ISSUE THAN AN UBUNTU/POP!_OS ISSUE
 
 > Solution 2 (the real one): Disable dark theme only for Workbench
 
-Credits : [here](https://askubuntu.com/a/1111198/1227056)
-
 Run Workbench with "env GTK_THEME=Adwaita" prepended; ie `env GTK_THEME=Adwaita mysql-workbench %f`    
 Change the file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change
 
@@ -184,3 +182,11 @@ Change the file (most probably /usr/share/applications/mysql-workbench.desktop) 
     MimeType=application/vnd.mysql-workbench-model;application/sql;
     Categories=GTK;Database;Development;
     StartupWMClass=mysql-workbench-bin
+
+Credits : [here](https://askubuntu.com/a/1111198/1227056)
+    
+**16. MySQL Workbench as a snap can't connect to MySQL server at localhost**
+
+    sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
+    
+Credits: [here](https://askubuntu.com/a/1242777/1227056)
