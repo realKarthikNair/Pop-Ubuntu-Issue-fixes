@@ -25,7 +25,7 @@ Fix:
     sudo rmmod btusb|sleep 1|sudo modprobe btusb
     
 
-**3. Bluetooth headphones/speakers not connecting or connecting but audio not routed through them**
+~**3. Bluetooth headphones/speakers not connecting or connecting but audio not routed through them**~ => Fixed since 22.04
 
 Fix:
 
