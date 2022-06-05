@@ -159,7 +159,20 @@ credits: [here](https://askubuntu.com/a/1398720/1227056)
 
 Fix
 
+For Pop!_OS users
+
     Remove the apt version and get the flatpak version from Pop Shop
+
+For Ubuntu users
+
+1. Get the snap version from store. 
+
+But if it still doesn't work or the snap version feels slow,
+
+    sudo apt install flatpak
+    sudo apt install gnome-software-plugin-flatpak
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak install flathub com.obsproject.Studio
 
 **15. UI Elements look trash in MySQL Workbench while system-wide dark theme is enabled**
 
