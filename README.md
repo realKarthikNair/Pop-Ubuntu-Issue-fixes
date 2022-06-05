@@ -35,7 +35,7 @@ Fix:
 
 
 **4.Touchpad gestures (ZOOMING) not working on browsers**
-
+ONLY FOR WAYLAND USERS (if you're running the latest Ubuntu, you're prolly running wayland)
 
 > For Chrome/Chromium/based
 
