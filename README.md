@@ -183,18 +183,9 @@ THIS IS MORE OF A MYSQL WORKBENCH ISSUE THAN AN UBUNTU/POP!_OS ISSUE
 > Solution 2 (the real one): Disable dark theme only for Workbench
 
 Run Workbench with "env GTK_THEME=Adwaita" prepended; ie `env GTK_THEME=Adwaita mysql-workbench %f`    
-Change the file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change
 
-    [Desktop Entry]
-    Name=MySQL Workbench
-    Comment=MySQL Database Design, Administration and Development Tool
-    Exec="env GTK_THEME=Adwaita mysql-workbench %f"
-    Terminal=false
-    Type=Application
-    Icon=mysql-workbench
-    MimeType=application/vnd.mysql-workbench-model;application/sql;
-    Categories=GTK;Database;Development;
-    StartupWMClass=mysql-workbench-bin
+~Change the file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change~
+(Editing the desktop file makes the workbench disappear from the launcher after a while for an unknown reason, atleast on my machine)
 
 Credits : [here](https://askubuntu.com/a/1111198/1227056)
     
