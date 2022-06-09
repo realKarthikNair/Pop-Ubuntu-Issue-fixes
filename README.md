@@ -194,3 +194,7 @@ Credits : [here](https://askubuntu.com/a/1111198/1227056)
     sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
     
 Credits: [here](https://askubuntu.com/a/1242777/1227056)
+
+**17. LibreOffice UI looks ugly**
+
+    sudo apt install libreoffice-gtk3 libreoffice-gtk2
