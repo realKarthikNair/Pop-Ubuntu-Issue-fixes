@@ -12,6 +12,8 @@ Fix:
     touch WordFile.docx
     touch OpenOfficeText.odt
     touch ExcelFile.xlsx
+    touch shellscript.sh
+    touch htmlfile.html
     
 credits : [here](https://askubuntu.com/a/209669/1227056)
 
