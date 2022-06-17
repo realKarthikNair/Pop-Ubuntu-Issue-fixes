@@ -200,3 +200,9 @@ Credits: [here](https://askubuntu.com/a/1242777/1227056)
 **17. LibreOffice UI looks ugly**
 
     sudo apt install libreoffice-gtk3 libreoffice-gtk2
+
+**18. Set keybinding for 'Show Desktop'
+
+e.g. to set 'Super/windows key'+'D' to show desktop 
+
+    dconf write /org/gnome/desktop/wm/keybindings/show-desktop "['<Super>d']"
