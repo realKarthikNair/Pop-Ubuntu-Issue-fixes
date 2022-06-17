@@ -201,7 +201,7 @@ Credits: [here](https://askubuntu.com/a/1242777/1227056)
 
     sudo apt install libreoffice-gtk3 libreoffice-gtk2
 
-**18. Set keybinding for 'Show Desktop'
+**18. Set keybinding for 'Show Desktop'**
 
 e.g. to set 'Super/windows key'+'D' to show desktop 
 
