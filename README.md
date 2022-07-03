@@ -159,7 +159,8 @@ Fix
     
 credits: [here](https://askubuntu.com/a/1398720/1227056)
 
-**14. OBS Studio saving blank video files of screen recording on wayland even when pipewire screensharing is working in OBS preview**
+~**14. OBS Studio saving blank video files of screen recording on wayland even when pipewire screensharing is working in OBS preview**~
+Fixed Now (if still doesn't work, try a reinstall of obs-studio after adding the latest ppa)
 
 Fix
 
