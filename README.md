@@ -63,7 +63,11 @@ Run firefox like this
 
 ```MOZ_ENABLE_WAYLAND=1 firefox```
 
-> For some reason, editing the Exec variable in firefox's desktop file doesnt do magic. So use the terminal to launch.
+For a permanent fix, edit the .desktop file of firefox. e.g., mine is at /usr/local/share/applications/firefox.desktop
+
+Change the line starting with "Exec=" to this
+
+        Exec=env MOZ_ENABLE_WAYLAND=1 MOZ_DBUS_REMOTE=1 GDK_BACKEND_WAYLAND=1 firefox %U
    
 **5. Hardware Accelerated video decode on Chrome/chromium based browsers**
     
