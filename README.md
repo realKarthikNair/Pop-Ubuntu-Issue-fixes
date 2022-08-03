@@ -193,8 +193,9 @@ THIS IS MORE OF A MYSQL WORKBENCH ISSUE THAN AN UBUNTU/POP!_OS ISSUE
 
 Run Workbench with "env GTK_THEME=Adwaita" prepended; ie `env GTK_THEME=Adwaita mysql-workbench %f`    
 
-~Change the file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change~
-(Editing the desktop file makes the workbench disappear from the launcher after a while for an unknown reason, atleast on my machine)
+Change the desktop file (most probably /usr/share/applications/mysql-workbench.desktop) for a permanent change
+
+Edited desktop file and more info [here](https://github.com/realKarthikNair/realKarthikNair/blob/main/Linux_fixes/mysql_workbench_dark_theme_buggy.md)
 
 Credits : [here](https://askubuntu.com/a/1111198/1227056)
     
