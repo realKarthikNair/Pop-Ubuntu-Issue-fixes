@@ -221,3 +221,9 @@ Credits : [here](https://www.reddit.com/r/pop_os/comments/gm3kfa/comment/ftq6kfz
 
 Fix: Disable any desktop icons extension(s) you're using eg [this](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
 *Unfortunately I dont see any solution to get rid off that without sacrificing desktop icons*
+
+**20. Bash looking at wrong path for vim**
+
+Fix:
+
+    hash -d vim
