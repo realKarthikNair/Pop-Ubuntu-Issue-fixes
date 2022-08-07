@@ -69,8 +69,11 @@ Change the line starting with "Exec=" to this
 
         Exec=env MOZ_ENABLE_WAYLAND=1 MOZ_DBUS_REMOTE=1 GDK_BACKEND_WAYLAND=1 firefox %U
    
-**5. Hardware Accelerated video decode on Chrome/chromium based browsers**
-    
+~**5. Hardware Accelerated video decode on Chrome/chromium based browsers**~
+It's working out of the box on modern versions of Chrome, confirm by running ```chrome://gpu``` and check if the output of `Video Decode` is `Hardware accelerated`
+
+Fix: 
+
 `This Worked for me!`
 https://www.linuxuprising.com/2021/01/how-to-enable-hardware-accelerated.html
 
