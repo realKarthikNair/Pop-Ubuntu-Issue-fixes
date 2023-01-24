@@ -208,7 +208,7 @@ Credits : [here](https://askubuntu.com/a/1111198/1227056)
     
 Credits: [here](https://askubuntu.com/a/1242777/1227056)
 
-##### **18. LibreOffice UI looks ugly**
+##### **18. LibreOffice UI looks elements looks ancient**
 
     sudo apt install libreoffice-gtk3 libreoffice-gtk2
 
