@@ -142,7 +142,7 @@ Open OBS Studio, and run this twice (for some reason running it once doesn't sol
     
 ##### **13. Enable screen-sharing from Chrome on Wayland**
 
-> Please refer 13th issue and soln too incase this alone doesnt work
+> Please refer 14th issue and solution too incase this alone doesnt work
 
 Fix
 
