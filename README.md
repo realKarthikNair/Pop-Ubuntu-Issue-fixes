@@ -38,19 +38,22 @@ Fix:
     reboot
 
 
-**4.Touchpad gestures (ZOOMING) not working on browsers**
+**4.Touchpad gestures (natural zooming, not the DPI thing) not working on browsers**
 ONLY FOR WAYLAND USERS (if you're running the latest Ubuntu, you're prolly running wayland)
 
 > For Chrome/Chromium/based
 
 Fix 1:
 
-On chrome URL Bar, type ```chrome://flags``` 
+On chrome URL Bar, type
 
-![image](https://user-images.githubusercontent.com/78267371/162694799-33a26cd9-3cf5-4726-b963-3e8c4d06cb99.png)
+```
+chrome://flags/#ozone-platform-hint
+```
 
-Set it as shown (to Wayland) and restart chrome
+and hit "enter" key
 
+Set it to Wayland and restart chrome
 
 Fix 2 (Fix 1 would work mostly) :
 
@@ -146,11 +149,15 @@ Open OBS Studio, and run this twice (for some reason running it once doesn't sol
 
 Fix
 
-On chrome URL Bar, type ```chrome://flags``` 
+On chrome URL Bar, type 
 
-![image](https://user-images.githubusercontent.com/78267371/162693891-f0248d2b-1d25-4079-a0ce-b0e82156fbbd.png)
+```
+chrome://flags/#enable-webrtc-pipewire-capturer
+```
 
-Enable this flag and restart Chrome.
+Hit "enter" key
+
+Set it to enable; restart Chrome.
 
 ##### **14. Fix pipewire screen-sharing on Ubuntu/Pop!_OS 22.04**
 
